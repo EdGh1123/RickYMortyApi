@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAppId"
+        android:layout_width="291dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/eater"
+        android:padding="1dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/IdEpisodio"
+        app:layout_constraintTop_toTopOf="@+id/IdEpisodio" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="310dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/eater"
+        android:padding="1dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/idEpisodio"
+        app:layout_constraintTop_toTopOf="@+id/idEpisodio" />
+
+    <TextView
+        android:id="@+id/tAair_date"
+        android:layout_width="323dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/eater"
+        android:padding="1dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/idEpisodio2"
+        app:layout_constraintTop_toTopOf="@+id/idEpisodio2" />
+
+    <TextView
+        android:id="@+id/tvEPISODIO"
+        android:layout_width="324dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/eater"
+        android:padding="1dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/idEpisodio3"
+        app:layout_constraintTop_toTopOf="@+id/idEpisodio3" />
+
+    <TextView
+        android:id="@+id/tvCREADOR"
+        android:layout_width="320dp"
+        android:layout_height="31dp"
+        android:fontFamily="@font/eater"
+        android:padding="1dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/idEpisodio4"
+        app:layout_constraintTop_toTopOf="@+id/idEpisodio4" />
+
+    <TextView
+        android:id="@+id/IdEpisodio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/eater"
+        android:text="Id Episodio: "
+        android:textColor="#306D7C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idEpisodio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/eater"
+        android:text="Nombre: "
+        android:textColor="#306D7C"
+        app:layout_constraintStart_toStartOf="@+id/IdEpisodio"
+        app:layout_constraintTop_toBottomOf="@+id/IdEpisodio" />
+
+    <TextView
+        android:id="@+id/idEpisodio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/eater"
+        android:text="Fecha: "
+        android:textColor="#306D7C"
+        app:layout_constraintStart_toStartOf="@+id/idEpisodio"
+        app:layout_constraintTop_toBottomOf="@+id/idEpisodio" />
+
+    <TextView
+        android:id="@+id/idEpisodio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/eater"
+        android:text="CODIGO: "
+        android:textColor="#306D7C"
+        app:layout_constraintStart_toStartOf="@+id/idEpisodio2"
+        app:layout_constraintTop_toBottomOf="@+id/idEpisodio2" />
+
+    <TextView
+        android:id="@+id/idEpisodio4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/eater"
+        android:text="T base: "
+        android:textColor="#306D7C"
+        app:layout_constraintStart_toStartOf="@+id/idEpisodio3"
+        app:layout_constraintTop_toBottomOf="@+id/idEpisodio3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
